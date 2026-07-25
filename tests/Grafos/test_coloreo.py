@@ -1,7 +1,7 @@
 import sys
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src" / "grafos"))
+sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "src" / "grafos"))
 from coloreo import (
     grafo_conflictos,
     coloreo_voraz,

@@ -1,7 +1,7 @@
 import sys
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src" / "Criptografia"))
+sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "src" / "Criptografia"))
 from cs import cifrar, descifrar, mostrar_fuerza_bruta
 
 # Ejemplos de cifrado

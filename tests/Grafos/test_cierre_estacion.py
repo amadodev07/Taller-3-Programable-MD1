@@ -1,7 +1,7 @@
 import sys
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src" / "grafos"))
+sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "src" / "grafos"))
 # Importamos el grafo desde el otro archivo, ruta_corta.py
 from ruta_corta import grafo_ciudad
 from cierre_estacion import medir_impacto, mostrar_tabla, mostrar_clasificacion
