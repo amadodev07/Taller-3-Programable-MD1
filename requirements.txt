@@ -1,0 +1,17 @@
+# requirements.txt
+# Taller 3 - Programacion discreta
+#
+# Este proyecto NO usa librerias externas.
+# Solo se necesita Python 3.10 o superior (probado con 3.13).
+#
+# Librerias estandar de Python utilizadas:
+#   - math       (logaritmos, raiz cuadrada, infinito)
+#   - random     (partes secretas MPC, mediciones del qubit)
+#   - itertools  (product: combinaciones de tablas de verdad)
+#   - pathlib    (rutas en los archivos de test)
+#   - sys        (agregar src/ al path desde tests/)
+#
+# Si en el futuro se agregan paquetes de pip, listarlos debajo
+# e instalar con: pip install -r requirements.txt
+
+# (vacio a proposito: no hay dependencias de pip)

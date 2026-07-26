@@ -24,5 +24,5 @@ mostrar_comparacion([0, 1, 8, 9], ("A", "B", "C", "D"))
 
 # Espacio para ejemplo propio
 # Cambia la lista de minterminos y las variables, luego descomenta.
-print("\n Ejemplo propio")
-mostrar_comparacion([1, 2, 3, 5], ("A", "B", "C"))
+# print("\n Ejemplo propio")
+# mostrar_comparacion([1, 2, 3, 5], ("A", "B", "C"))

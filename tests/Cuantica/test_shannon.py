@@ -2,7 +2,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[2] / "src" / "cuantica"))
-from shannon import analizar_texto, comparar_textos, entropia
+from shannon import analizar_texto, comparar_textos, entropia, comparar_huffman_entropia
 
 # Ejemplos
 
@@ -10,7 +10,7 @@ print("=" * 60)
 print("Entropia de Shanon")
 print("=" * 60)
 
-# Ejemplo 1: texto muy repetitivo 
+# Ejemplo 1: texto muy repetitivo
 texto_repetitivo = "aaaaaaaaaa"
 print("\n Ejemplo 1 (repetitivo) ")
 analizar_texto(texto_repetitivo, "repetitivo")
@@ -24,6 +24,12 @@ analizar_texto(texto_variado, "variado")
 print("\n Ejemplo 3 (comparacion)")
 comparar_textos(texto_repetitivo, texto_variado, "repetitivo", "variado")
 
+# Ejemplo 4: extension Huffman vs entropia
+print("\n Ejemplo 4 (Huffman vs entropia)")
+comparar_huffman_entropia(texto_variado, "variado")
+print()
+comparar_huffman_entropia(texto_repetitivo, "repetitivo")
+
 # Espacio para ejemplo propio
 # Cambia los textos y descomenta.
 # texto_propio_1 = "hola hola hola"
@@ -31,3 +37,4 @@ comparar_textos(texto_repetitivo, texto_variado, "repetitivo", "variado")
 # print("\n Ejemplo propio ")
 # comparar_textos(texto_propio_1, texto_propio_2, "propio 1", "propio 2")
 # print("Entropias:", entropia(texto_propio_1), entropia(texto_propio_2))
+# comparar_huffman_entropia(texto_propio_2, "propio 2")
