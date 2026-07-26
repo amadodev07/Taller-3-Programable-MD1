@@ -255,8 +255,6 @@ X|0> = |1>; H|0> cerca de 50/50 en 1000 mediciones; HH|0> = |0>. Extra: Z|0>.
 ### Limitaciones
 Un solo qubit, amplitudes reales en la practica de estos ejemplos, sin ruido. No escala a circuitos grandes; es solo para ver la idea.
 
----
-
 ## Nota final
 
 Si algo no corre, lo primero es confirmar que la terminal esta en la raiz del repo y que el comando es `python` (o `py`). Los detalles de ejecucion tambien estan en el `README.md`.
